@@ -12,10 +12,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'NoteKeeper',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.deepPurple
-      ),
-      home: NoteDetial(),
+      theme: ThemeData(primarySwatch: Colors.deepPurple),
+      home: NoteList(),
     );
   }
 }
